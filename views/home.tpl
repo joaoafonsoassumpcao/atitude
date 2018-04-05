@@ -50,7 +50,120 @@ Follow: http://www.twitter.com/themehats
 	<!-- END THEME STYLES -->
 
 	<link rel="shortcut icon" href="/favicon.ico"/>
-</head><body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen"> 
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<style>
+
+.c-layout-revo-slider-7 .c-singup-form .form-inline .form-group .form-control {
+    border-color:#ED3237;
+    color: #ED3237 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black !important;
+}
+
+.owl-carousel.c-theme .owl-controls .owl-dot:hover {
+    background:rgb(214, 141, 143);
+}
+.c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon, .c-page-on-scroll .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
+    color: #b1aeae;
+}
+.c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon, .c-layout-header.c-layout-header-2 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
+    color: #b1aeae;
+}
+	.c-layout-header.c-layout-header-2 {
+    background: rgba(254, 254, 255, 0.514);
+    border-bottom: 0;
+}
+
+.c-page-on-scroll .c-layout-header.c-layout-header-2 {
+    background: rgb(255, 255, 255);
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+.c-theme-nav li.c-active {
+    color: #ED3237 !important;
+}
+
+.c-theme-nav li:focus > a:not(.btn), .c-theme-nav li:active > a:not(.btn), .c-theme-nav li:hover > a:not(.btn) {
+    color: #ED3237 !important;
+}
+
+.c-theme-nav li.c-active > a:not(.btn) {
+    color: #ED3237 !important;
+}
+
+.c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li > .dropdown-menu {
+    background: rgb(223, 223, 223);
+    box-shadow: none;
+    border: 0;
+}
+
+.c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li.c-active > a, .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li:hover > a {
+    background: #292e33;
+    color: white !important;
+}
+
+body {
+    color: #5c6873;
+    font-family: "Josefin sans", sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.c-content-title-1 > .c-line-center {
+    width: 30px;
+    height: 3px;
+    background-color: #ED3237;
+    margin: 0 auto 30px auto;
+}
+
+.c-theme-btn.btn {
+    color: #ffffff;
+    background: #ED3237;
+    border-color: #ED3237;
+}
+
+.c-theme-btn.btn.btn-no-focus:hover, .c-theme-btn.btn:hover, .c-theme-btn.btn.btn-no-focus:active, .c-theme-btn.btn:active, .c-theme-btn.btn.active, .open > .c-theme-btn.btn.dropdown-toggle {
+    color: #ffffff;
+    background: rgb(133, 30, 33);
+    border-color: rgb(133, 30, 33);
+}
+
+.owl-carousel.c-theme .owl-controls .owl-dot.active {
+    background: #ED3237;
+}
+
+.c-layout-footer.c-layout-footer-1 .c-postfooter {
+    padding: 40px 0;
+    background: black;
+}
+
+.c-layout-footer.c-layout-footer-1 .c-postfooter .c-copyright {
+    color: white;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.c-content-list-1.c-theme.c-separator-dot > li:before, .c-content-list-1.c-theme > li:before {
+    background:#ED3237;
+}
+</style>
+<body class="c-layout-header-fixed c-layout-header-mobile-fixed c-layout-header-fullscreen"> 
 		
 	<!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
 <!-- BEGIN: HEADER -->
@@ -61,9 +174,9 @@ Follow: http://www.twitter.com/themehats
 			<div class="c-navbar-wrapper clearfix">
 				<div class="c-brand c-pull-left">
 					<a href="index.html" class="c-logo">
-						<img src="/assets/base/img/layout/logos/logo-1.png" alt="JANGO" class="c-desktop-logo">
-						<img src="/assets/base/img/layout/logos/logo-1.png" alt="JANGO" class="c-desktop-logo-inverse">
-						<img src="/assets/base/img/layout/logos/logo-1.png" alt="JANGO" class="c-mobile-logo">
+						<img src="/assets/base/img/content/logo.png" alt="Atitude Cursos" class="c-desktop-logo">
+						<img src="/assets/base/img/content/logo.png" alt="Atitude Cursos" class="c-desktop-logo-inverse">
+						<img src="/assets/base/img/content/logo.png" alt="Atitude Cursos" class="c-mobile-logo">
 					</a>
 					<button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
 					<span class="c-line"></span>
@@ -217,7 +330,7 @@ Follow: http://www.twitter.com/themehats
 												
 					</li>
 						<li class="c-menu-type-classic">
-						<a href="javascript:;" class="c-link dropdown-toggle">Features<span class="c-arrow c-toggler"></span></a>
+						<a href="javascript:;" class="c-link dropdown-toggle">Cursos<span class="c-arrow c-toggler"></span></a>
 			
 						
 													<ul class="dropdown-menu c-menu-type-classic c-pull-left">
@@ -482,7 +595,7 @@ Follow: http://www.twitter.com/themehats
 							
 					</li>
 						<li >
-						<a href="javascript:;" class="c-link dropdown-toggle">Pages<span class="c-arrow c-toggler"></span></a>
+						<a href="javascript:;" class="c-link dropdown-toggle">Sobre<span class="c-arrow c-toggler"></span></a>
 			
 						
 													
@@ -1146,12 +1259,10 @@ Follow: http://www.twitter.com/themehats
 			<a  href="#" class="c-btn-icon c-search-toggler"><i class="fa fa-search"></i></a>
 		</li>
 		
-				<li class="c-cart-toggler-wrapper">
-			<a  href="#" class="c-btn-icon c-cart-toggler"><i class="icon-handbag c-cart-icon"></i> <span class="c-cart-number c-theme-bg">2</span></a>
-		</li>
+				
 		
 				<li>
-			<a href="#" data-toggle="modal" data-target="#login-form" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-sm c-btn-border-1x c-btn-white c-btn-circle c-btn-uppercase c-btn-sbold"><i class="icon-user"></i> Sign In</a>
+			<a href="#" data-toggle="modal" data-target="#login-form" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-sm c-btn-border-1x c-btn-white c-btn-circle c-btn-uppercase c-btn-sbold"><i class="icon-user"></i> Login</a>
 		</li>
 		
 				<li class="c-quick-sidebar-toggler-wrapper">	
@@ -1170,38 +1281,7 @@ Follow: http://www.twitter.com/themehats
 			</div>			
 			<!-- BEGIN: LAYOUT/HEADERS/QUICK-CART -->
 <!-- BEGIN: CART MENU -->
-<div class="c-cart-menu">
-	<div class="c-cart-menu-title">
-		<p class="c-cart-menu-float-l c-font-sbold">2 item(s)</p>
-		<p class="c-cart-menu-float-r c-theme-font c-font-sbold">$79.00</p>
-	</div>
-	<ul class="c-cart-menu-items">
-		<li>
-			<div class="c-cart-menu-close">
-				<a href="#" class="c-theme-link">×</a>
-			</div>
-			<img src="/assets/base/img/content/shop2/24.jpg"/>
-			<div class="c-cart-menu-content">
-				<p>1 x <span class="c-item-price c-theme-font">$30</span></p>
-				<a href="shop-product-details-2.html" class="c-item-name c-font-sbold">Winter Coat</a>
-			</div>
-		</li>
-		<li>
-			<div class="c-cart-menu-close">
-				<a href="#" class="c-theme-link">×</a>
-			</div>
-			<img src="/assets/base/img/content/shop2/12.jpg"/>
-			<div class="c-cart-menu-content">
-				<p>1 x <span class="c-item-price c-theme-font">$30</span></p>
-				<a href="shop-product-details.html" class="c-item-name c-font-sbold">Sports Wear</a>
-			</div>
-		</li>
-	</ul> 
-	<div class="c-cart-menu-footer">
-		<a href="shop-cart.html" class="btn btn-md c-btn c-btn-square c-btn-grey-3 c-font-white c-font-bold c-center c-font-uppercase">View Cart</a>
-		<a href="shop-checkout.html" class="btn btn-md c-btn c-btn-square c-theme-btn c-font-white c-font-bold c-center c-font-uppercase">Checkout</a>
-	</div>
-</div>
+
 <!-- END: CART MENU --><!-- END: LAYOUT/HEADERS/QUICK-CART -->
 		</div>
 	</div>
@@ -1344,115 +1424,6 @@ Follow: http://www.twitter.com/themehats
 </div><!-- END: CONTENT/USER/LOGIN-FORM -->
 
 	<!-- BEGIN: LAYOUT/SIDEBARS/QUICK-SIDEBAR -->
-<nav class="c-layout-quick-sidebar">
-	<div class="c-header">
-		<button type="button" class="c-link c-close">
-		<i class="icon-login"></i>		
-		</button>
-	</div>
-	<div class="c-content">
-		<div class="c-section">
-			<h3>JANGO DEMOS</h3>
-			<div class="c-settings c-demos c-bs-grid-reset-space">	
-				<div class="row">
-					<div class="col-md-12">
-						<a href="../default/index.html" class="c-demo-container c-demo-img-lg">
-							<div class="c-demo-thumb active">
-								<img src="/assets/base/img/content/quick-sidebar/default.jpg" class="c-demo-thumb-img"/>
-							</div>
-						</a>	
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<a href="../corporate_1/index.html" class="c-demo-container">
-							<div class="c-demo-thumb  c-thumb-left">
-								<img src="/assets/base/img/content/quick-sidebar/corporate_1.jpg" class="c-demo-thumb-img"/>
-							</div>
-						</a>	
-					</div>
-					<div class="col-md-6">
-						<a href="../agency_1/index.html" class="c-demo-container">
-							<div class="c-demo-thumb  c-thumb-right">
-								<img src="/assets/base/img/content/quick-sidebar/corporate_1-onepage.jpg" class="c-demo-thumb-img"/>
-							</div>
-						</a>	
-					</div>
-				</div>			
-			</div>
-		</div>	
-		<div class="c-section">
-			<h3>Theme Colors</h3>
-			<div class="c-settings">
-
-				<span class="c-color c-default c-active" data-color="default"></span>
-				
-				<span class="c-color c-green1" data-color="green1"></span>
-				<span class="c-color c-green2" data-color="green2"></span>
-				<span class="c-color c-green3" data-color="green3"></span>
-
-				<span class="c-color c-yellow1" data-color="yellow1"></span>
-				<span class="c-color c-yellow2" data-color="yellow2"></span>
-				<span class="c-color c-yellow3" data-color="yellow3"></span>
-				
-				<span class="c-color c-red1" data-color="red1"></span>
-				<span class="c-color c-red2" data-color="red2"></span>
-				<span class="c-color c-red3" data-color="red3"></span>
-
-				<span class="c-color c-purple1" data-color="purple1"></span>
-				<span class="c-color c-purple2" data-color="purple2"></span>
-				<span class="c-color c-purple3" data-color="purple3"></span>
-
-				<span class="c-color c-blue1" data-color="blue1"></span>
-				<span class="c-color c-blue2" data-color="blue2"></span>
-				<span class="c-color c-blue3" data-color="blue3"></span>
-
-				<span class="c-color c-brown1" data-color="brown1"></span>
-				<span class="c-color c-brown2" data-color="brown2"></span>
-				<span class="c-color c-brown3" data-color="brown3"></span>
-
-				<span class="c-color c-dark1" data-color="dark1"></span>
-				<span class="c-color c-dark2" data-color="dark2"></span>
-				<span class="c-color c-dark3" data-color="dark3"></span>
-			</div>
-		</div>	
-		<div class="c-section">
-			<h3>Header Type</h3>
-			<div class="c-settings">				
-				<input type="button" class="c-setting_header-type btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase active" data-value="boxed" value="boxed"/>
-				<input type="button" class="c-setting_header-type btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase" data-value="fluid" value="fluid"/>
-			</div>
-		</div>		
-		<div class="c-section">
-			<h3>Header Mode</h3>
-			<div class="c-settings">			
-				<input type="button" class="c-setting_header-mode btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase active" data-value="fixed" value="fixed"/>
-				<input type="button" class="c-setting_header-mode btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase" data-value="static" value="static"/>
-			</div>
-		</div>
-		<div class="c-section">
-			<h3>Mega Menu Style</h3>
-			<div class="c-settings">			
-				<input type="button" class="c-setting_megamenu-style btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase active" data-value="dark" value="dark"/>
-				<input type="button" class="c-setting_megamenu-style btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase" data-value="light" value="light"/>
-			</div>
-		</div>
-		<div class="c-section">
-			<h3>Font Style</h3>
-			<div class="c-settings">			
-				<input type="button" class="c-setting_font-style btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase active" data-value="default" value="default"/>
-				<input type="button" class="c-setting_font-style btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase" data-value="light" value="light"/>
-			</div>
-		</div>
-		<div class="c-section">
-			<h3>Reading Style</h3>
-			<div class="c-settings">	
-				<a href="http://www.themehats.com/themes/jango/" class="c-setting_font-style btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase active">LTR</a>		
-				<a href="http://www.themehats.com/themes/jango/rtl/" class="c-setting_font-style btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-sbold c-btn-uppercase ">RTL</a>		
-			</div>
-		</div>
-	</div>
-</nav><!-- END: LAYOUT/SIDEBARS/QUICK-SIDEBAR -->
 
 	<!-- BEGIN: PAGE CONTAINER -->
 	<div class="c-layout-page">
@@ -1461,22 +1432,22 @@ Follow: http://www.twitter.com/themehats
 <section class="c-layout-revo-slider c-layout-revo-slider-7" dir="ltr">
 	<div class="tp-banner-container tp-fullscreen tp-fullscreen-mobile">
 		<div class="c-singup-form">
-			<h3 class="c-font-54 c-font-thin c-font-white c-margin-b-40 c-font-uppercase">
-				We're Here To <span class="c-theme-font c-font-bold">Accelerate</span> Businesses
+			<h3 class="c-font-54 c-font-thin c-font-white c-margin-b-40 c-font-uppercase" style="color:black !important; font-size:80px; font-weight:bold">
+				Gestão em Segurança<span class="c-theme-font c-font-bold" style="color:#ED3237 !important"> Pública</span>
 			</h3>
 
 			<h5 class="c-font-24 c-font-thin c-font-uppercase c-font-white c-subtitle c-margin-b-40">
-				SIGN UP & GET 90 DAYS FREE ACCESS
+				
 			</h5>
 				
 			<form class="form-inline" action="#">
 				<div class="form-group">
-	    			<input type="text" class="form-control c-bg-transparent input-lg c-theme c-square " placeholder="Your name">
+	    			<input type="text" class="form-control c-bg-transparent input-lg c-theme c-square " placeholder="Nome">
 	  			</div>
 	  			<div class="form-group">
-	    			<input type="email" class="form-control c-bg-transparent input-lg c-theme c-square " placeholder="Email address">
+	    			<input type="email" class="form-control c-bg-transparent input-lg c-theme c-square " placeholder="WhatsApp">
 	  			</div>
-	  			<button type="submit" class="btn btn-lg btn-danger c-btn-uppercase c-btn-square c-btn-bold">Try it for free</button>
+	  			<button type="submit" class="btn btn-lg btn-danger c-btn-uppercase c-btn-square c-btn-bold">Cadastre-se para receber seu desconto</button>
 			</form>
 		</div>
 		<div class="tp-banner rev_slider" data-version="5.0">
@@ -1485,7 +1456,7 @@ Follow: http://www.twitter.com/themehats
 				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">			
 					<img 
 						alt="" 
-						src="/assets/base/img/content/backgrounds/bg-56.jpg"
+						src="/assets/base/img/content/banners/banner1.jpg"
 						data-bgposition="center center" 
 						data-bgfit="cover" 
 						data-bgrepeat="no-repeat"
@@ -1494,7 +1465,7 @@ Follow: http://www.twitter.com/themehats
 		 		<!--END --> 
 
 		 		<!--BEGIN: SLIDE #2 -->
-				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">			
+				<!-- <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">			
 					<img 
 						alt="" 
 						src="/assets/base/img/content/backgrounds/bg-57.jpg"
@@ -1502,7 +1473,7 @@ Follow: http://www.twitter.com/themehats
 						data-bgfit="cover" 
 						data-bgrepeat="no-repeat"
 					>	
-		 		</li>
+		 		</li> -->
 		 		<!--END -->
 			</ul>
 		</div>
@@ -1517,11 +1488,11 @@ Follow: http://www.twitter.com/themehats
 			<div class="col-md-12">
 				<div class="c-content-title-1 c-margin-b-60">
 					<h3 class="c-center c-font-uppercase c-font-bold">
-						How We Optimize Your Business
+						Cursos do Atitude
 					</h3>					
 					<div class="c-line-center"></div>
 					<p class="c-center c-font-uppercase c-font-17">
-						Lorem ipsum dolor sit amet consectetuer dolore
+						
 					</p>
 				</div>
 			</div>
@@ -1530,106 +1501,48 @@ Follow: http://www.twitter.com/themehats
 		<div class="row">
 			<div class="col-md-4 col-sm-6 wow animate fadeInLeft">
 				<div class="c-content-step-1 c-opt-1">
-					<div class="c-icon"><span class="c-hr c-hr-first"><span class="c-content-line-icon c-icon-14 c-theme"></span></span></div>
-					<div class="c-title c-font-20 c-font-bold c-font-uppercase">1. First Important STEP</div>
+					<div class="c-icon"><span class="c-hr c-hr-first"><span class="icon-graduation" style="font-size:45px; color:#ED3237"></span></span></div>
+					<div class="c-title c-font-20 c-font-bold c-font-uppercase">Gestão de Segurança Pública</div>
 					<div class="c-description c-font-17">
-						Lorem ipsum dolor sit consectetuer
-						adipiscing elit et diam nonummy.
+						O melhor curso de gestão para carreira policiais, com certificado de nível superior para você prestar seu concurso.
 					</div>
-					<button class="btn c-btn-square c-theme-btn c-btn-border1-2x c-btn-uppercase c-btn-bold">EXPLORE</button>
+					<button class="btn c-btn-square c-theme-btn c-btn-border1-2x c-btn-uppercase c-btn-bold">Conheça o curso</button>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6 wow animate fadeInLeft" data-wow-delay="0.2s">
 				<div class="c-content-step-1 c-opt-1">
-					<div class="c-icon"><span class="c-hr"><span class="c-content-line-icon c-icon-21 c-theme"></span></span></div>
-					<div class="c-title c-font-20 c-font-bold c-font-uppercase">2. Second Phase</div>
+					<div class="c-icon"><span class="c-hr"><span class="icon-notebook" style="font-size:45px; color:#ED3237"></span></span></div>
+					<div class="c-title c-font-20 c-font-bold c-font-uppercase">Preparatórios para Carreiras Policiais</div>
 					<div class="c-description c-font-17">
-						Lorem ipsum dolor sit consectetuer
-						adipiscing elit et diam nonummy.
+						Já possui nível superior? Então prepare-se para seu concurso público com os melhores professores do centro-oeste.
 					</div>
-					<button class="btn c-btn-square c-theme-btn c-btn-uppercase c-btn-bold">EXPLORE</button>
+					<button class="btn c-btn-square c-theme-btn c-btn-uppercase c-btn-bold">Conheça o curso</button>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-12 wow animate fadeInLeft" data-wow-delay="0.4s">
 				<div class="c-content-step-1 c-opt-1">
-					<div class="c-icon"><span class="c-hr c-hr-last"><span class="c-content-line-icon c-icon-32 c-theme"></span></span></div>
-					<div class="c-title c-font-20 c-font-bold c-font-uppercase">3. Final Action</div>
+					<div class="c-icon"><span class="c-hr c-hr-last"><span class="icon-pencil" style="font-size:45px; color:#ED3237"></span></span></div>
+					<div class="c-title c-font-20 c-font-bold c-font-uppercase">Específica de Redação</div>
 					<div class="c-description c-font-17">
-						Lorem ipsum dolor sit consectetuer
-						adipiscing elit et diam nonummy.
+						Sabia que sua redação equivale a grande parte de sua nota em concursos? Pega a caneta e vem aprender com quem garante sua aprovação.
 					</div>
-					<button class="btn c-btn-square c-theme-btn c-btn-uppercase c-btn-bold">EXPLORE</button>
+					<button class="btn c-btn-square c-theme-btn c-btn-uppercase c-btn-bold">Conheça o curso</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </div><!-- END: CONTENT/STEPS/STEPS-1 -->
 
-<!-- BEGIN: CONTENT/MISC/LATEST-ITEMS-4 -->
-<div class="c-content-box c-size-md c-bg-grey-1">
-	<div class="container">
-				<div class="row">
-			<div class="col-md-8">		
-				<div class="c-content-media-2-slider" data-slider="owl">
-					<div class="c-content-label c-font-uppercase c-font-bold">Latest Projects</div>						
-					<div class="owl-carousel owl-theme c-theme owl-single" data-single-item="true" data-auto-play="4000" data-rtl="false">
-						<div class="item">
-							<div class="c-content-media-2 c-bg-img-center" style="background-image: url(/assets/base/img/content/stock3/17.jpg); min-height: 380px;">
-								<div class="c-panel">
-									<div class="c-fav">
-										<i class="icon-heart c-font-thin"></i>
-										<p class="c-font-thin">16</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="c-content-media-2 c-bg-img-center" style="background-image: url(/assets/base/img/content/stock3/8.jpg); min-height: 380px;">
-								<div class="c-panel">
-									<div class="c-fav">
-										<i class="icon-heart c-font-thin"></i>
-										<p class="c-font-thin">24</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="c-content-media-2 c-bg-img-center" style="background-image: url(/assets/base/img/content/stock3/35.jpg); min-height: 380px;">
-								<div class="c-panel">
-									<div class="c-fav">
-										<i class="icon-heart c-font-thin"></i>
-										<p class="c-font-thin">19</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>		
-			</div>
-			<div class="col-md-4">
-				<div class="c-content-media-1" style="height: 380px;">
-					<div class="c-content-label c-font-uppercase c-font-bold c-theme-bg">Our Mission</div>
-					<a href="#" class="c-title c-font-uppercase  c-font-bold c-theme-on-hover">Take the web by storm with JANGO</a>
-					<p>Lorem ipsum dolor sit amet, coectetuer adipiscing elit sed diam nonummy et nibh euismod aliquam erat volutpat</p>
-					<div class="c-author">
-						<div class="c-portrait" style="background-image: url(/assets/base/img/content/team/team16.jpg)"></div>
-						<div class="c-name c-font-uppercase">Jack Nilson</div>
-					</div>
-				</div>
-			</div>			
-		</div>
-	</div>
-</div>
-<!-- END: CONTENT/MISC/LATEST-ITEMS-4 -->
+
 
 <!-- BEGIN: CONTENT/TESTIMONIALS/TESTIMONIALS-6-3 -->
 <div class="c-content-box c-size-md c-bg-white">
     <div class="container">
         <div class="c-content-blog-post-card-1-slider" data-slider="owl">
             <div class="c-content-title-1">
-                <h3 class="c-center c-font-uppercase c-font-bold">Customer Reviews</h3>
-                <div class="c-line-center c-theme-bg"></div>
-                <p class="c-center c-font-uppercase1">Lorem ipsum dolor sit amet et consectetuer adipiscing elit</p>
+                <h3 class="c-center c-font-uppercase c-font-bold">Nossos Professores</h3>
+                <div class="c-line-center c-theme-bg" style="background-color:#ED3237 !important"></div>
+                <p class="c-center c-font-uppercase1"></p>
             </div>
             <div class="owl-carousel owl-theme c-theme c-owl-nav-center" data-items="3" data-slide-speed="8000" data-rtl="false"> 
                 <div class="item">  
@@ -1641,8 +1554,8 @@ Follow: http://www.twitter.com/themehats
                         <div class="c-person">
                             <img src="/assets/base/img/content/avatars/team1.jpg" class="img-responsive">
                             <div class="c-person-detail c-font-uppercase">
-                                <h4 class="c-name">Mark Doe</h4>
-                                <p class="c-position c-font-bold c-theme-font">CFO, Walmart</p>
+                                <h4 class="c-name">Professor 1</h4>
+                                <p class="c-position c-font-bold c-theme-font" style="color:#ED3237 !important">Matéria</p>
                             </div>
                         </div>
                     </div>
@@ -1656,8 +1569,8 @@ Follow: http://www.twitter.com/themehats
                         <div class="c-person">
                             <img src="/assets/base/img/content/avatars/team6.jpg" class="img-responsive">
                             <div class="c-person-detail c-font-uppercase">
-                                <h4 class="c-name">Ashley Benson</h4>
-                                <p class="c-position c-font-bold c-theme-font">CFO, Loop Inc</p>
+                                <h4 class="c-name">Professor 2</h4>
+                                <p class="c-position c-font-bold c-theme-font" style="color:#ED3237 !important">Matéria</p>
                             </div>
                         </div>
                     </div>
@@ -1671,8 +1584,8 @@ Follow: http://www.twitter.com/themehats
                         <div class="c-person">
                             <img src="/assets/base/img/content/avatars/team4.jpg" class="img-responsive">
                             <div class="c-person-detail c-font-uppercase">
-                                <h4 class="c-name">Nina Kunis</h4>
-                                <p class="c-position c-font-bold c-theme-font">CFO, ERA Tech</p>
+                                <h4 class="c-name">Professor 3</h4>
+                                <p class="c-position c-font-bold c-theme-font" style="color:#ED3237 !important">Matéria</p>
                             </div>
                         </div>
                     </div>
@@ -1686,8 +1599,8 @@ Follow: http://www.twitter.com/themehats
                         <div class="c-person">
                             <img src="/assets/base/img/content/avatars/team8.jpg" class="img-responsive">
                             <div class="c-person-detail c-font-uppercase">
-                                <h4 class="c-name">Ashley Benson</h4>
-                                <p class="c-position c-font-bold c-theme-font">CFO, Loop Inc</p>
+                                <h4 class="c-name">Professor 4</h4>
+                                <p class="c-position c-font-bold c-theme-font" style="color:#ED3237 !important">Matéria</p>
                             </div>
                         </div>
                     </div>
@@ -1701,8 +1614,8 @@ Follow: http://www.twitter.com/themehats
                         <div class="c-person">
                             <img src="/assets/base/img/content/avatars/team7.jpg" class="img-responsive">
                             <div class="c-person-detail c-font-uppercase">
-                                <h4 class="c-name">Mark Jeep</h4>
-                                <p class="c-position c-font-bold c-theme-font">CFO, ERA Tech</p>
+                                <h4 class="c-name">Professor 5</h4>
+                                <p class="c-position c-font-bold c-theme-font" style="color:#ED3237 !important">Matéria</p>
                             </div>
                         </div>
                     </div>
@@ -1712,477 +1625,80 @@ Follow: http://www.twitter.com/themehats
     </div>
 </div><!-- END: CONTENT/TESTIMONIALS/TESTIMONIALS-6-3 -->
 
-<!-- BEGIN: CONTENT/STATS/COUNTER-4 -->
-<div class="c-content-box c-size-lg c-bg-parallax" style="background-image: url(/assets/base/img/content/backgrounds/bg-40.jpg)">
+<!-- BEGIN: CONTENT/FEATURES/FEATURES-16-2 -->
+<div id="feature-16-2" class="c-content-feature-16 c-bg-img-center" style="background-image: url(../../assets/base/img/content/banners/apostila.jpg)">
 	<div class="container">
-		<div class="c-content-counter-1">
-			<div class="c-content-title-1">
-				<h3 class="c-center c-font-uppercase c-font-white c-font-bold">We never stop improving</h3>
-				<div class="c-line-center c-bg-white"></div>
-			</div>	
-			<div class="row c-margin-t-60">
-				<div class="col-md-4">
-					<div class="c-counter c-font-white c-bordered c-border-red c-font-white" data-counter="counterup">130</div>
-					<h4 class="c-title c-first c-font-white c-font-uppercase c-font-bold">Current Pages</h4>
-					<p class="c-content c-font-white c-opacity-08">..and growing. We will never stop improving and updating JANGO. Expect more.</p>
-				</div>
-				<div class="col-md-4">
-					<div class="c-counter c-font-white c-bordered c-border-blue c-font-white" data-counter="counterup">35,500</div>
-					<h4 class="c-title c-font-white c-font-uppercase c-font-bold">Satisfied Customers</h4>
-					<p class="c-content c-font-white c-opacity-08">Our Professional and dedicated team are on stand by to server your every concern.</p>
-				</div>
-				<div class="col-md-4">
-					<div class="c-counter c-font-white c-bordered c-border-green c-font-white" data-counter="counterup">101,865</div>
-					<h4 class="c-title c-font-white c-font-uppercase c-font-bold">Total Downloads</h4>
-					<p class="c-content c-font-white c-opacity-08">Join the community of over 101,865 users.</p>
+		<div class="row">
+			<div class="col-md-5 col-xs-12">
+				<div class="c-feature-16-container c-bg-dark c-bg-opacity-4">
+					<div class="c-feature-16-line c-theme-bg" style="background-color:#ED3237 !important"></div>
+					<h2 class="c-feature-16-title c-font-bold c-font-uppercase c-font-white">Apostilas para concursos</h2>
+					<p class="c-feature-16-desc c-font-grey">
+						Compre já nossas apostilas para PM GO, PC GO e PM TO.
+					</p>
+					<a class="c-feature-15-btn btn c-btn btn-lg c-theme-btn c-font-uppercase c-font-bold c-btn-square" href="https://themeforest.net/item/jango-highly-flexible-component-based-html5-template/11987314" alt="Purchase JANGO">Adquira!</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div><!-- END: CONTENT/STATS/COUNTER-4 -->
+</div><!-- END: CONTENT/FEATURES/FEATURES-16-2 -->
 
-<!-- BEGIN: CONTENT/TABS/TAB-2 -->
-<div class="c-content-box c-size-md c-overflow-hide c-bg-grey-1">
-	<div class="c-container">
-		<div class="c-content-tab-3 c-opt-1">
-			<div>
-				<ul class="nav c-theme-nav">
-					<li class="active">
-						<a class="c-font-16 c-theme-font c-font-bold" href="#c-tab3-1" data-toggle="tab">LATEST PROJECTS</a>
-					</li>
-					<li>
-						<div class="c-separator"></div>
-						<a class="c-font-16 c-theme-font c-font-bold" href="#c-tab3-2" data-toggle="tab">BLOG POSTS</a>
-					</li>
-					<li>
-						<div class="c-separator"></div>
-						<a class="c-font-16 c-theme-font c-font-bold" href="#c-tab3-3" data-toggle="tab">FORUM DISCUSSIONS</a>
-					</li>
-					<li>
-						<div class="c-separator"></div>
-						<a class="c-font-16 c-theme-font c-font-bold" href="#c-tab3-4" data-toggle="tab">USER REVIEWS</a>
-					</li>
+
+<div class="c-content-box c-size-md c-bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 wow animated fadeInLeft">						
+				<!-- Begin: Title 1 component -->
+				<div class="c-content-title-1">
+					<h3 class="c-font-uppercase c-font-bold">Sobre Nós</h3>
+					<div class="c-line-left c-theme-bg" style="background-color:#ED3237 !important"></div>
+				</div>
+				<!-- End-->
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy nibh euismod tincidunt ut laoreet dolore magna aluam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci et tation diam nisl ut aliquip ex ea commodo consequat euismod tincidunt ut laoreet dolore magna aluam. </p>
+				<ul class="c-content-list-1 c-theme  c-font-uppercase">
+					<li>Perfect Design interface</li>
+					<li>Huge Community</li>
+					<li>Support for Everyone</li>
 				</ul>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
 			</div>
-			<div class="c-tab-content">
-				<div class="container">
-					<div class="tab-content">
-						<div class="tab-pane fade in active" id="c-tab3-1">
-							<div class="col-md-5 col-sm-12">
-								<ul class="c-items">
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-connectdevelop"></i>JANGO Framework</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-cubes"></i>Diverse Solutions</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-thumbs-o-up"></i>Highest Quality</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Cosectetuer dias amet ut ed laoreet dolore.</p>
-									</li>
-								</ul>
-								<button class="btn btn-lg c-theme-btn c-btn-square c-btn-bold">EXPLORE</button>
+			<div class="col-sm-6 wow animated fadeInRight">
+				<div class="c-content-client-logos-1">
+					<!-- Begin: Title 1 component -->
+					<div class="c-content-title-1">
+						<h3 class="c-font-uppercase c-font-bold">Alunos Aprovados</h3>
+						<div class="c-line-left c-theme-bg" style="background-color:#ED3237 !important"></div>
+					</div>
+					<!-- End-->
+					<div class="c-logos">
+						<div class="row">
+							<div class="col-md-4 col-xs-6 c-logo c-logo-1">
+								<a href="#"><img class="c-img-pos" src="../../assets/base/img/content/client-logos/client1.jpg" alt=""/></a>
 							</div>
-
-							<div class="col-md-7 col-sm-12">
-								<ul class="c-photos">
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/01.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/015.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/20.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/64.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/23.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/35.jpg" alt=""/>
-									</li>
-								</ul>
+							<div class="col-md-4 col-xs-6 c-logo c-logo-2">
+								<a href="#"><img class="c-img-pos" src="../../assets/base/img/content/client-logos/client2.jpg" alt=""/></a>
 							</div>
-						</div>
-
-						<div class="tab-pane fade" id="c-tab3-2">
-							<div class="col-md-5 col-sm-12">
-								<ul class="c-items">
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-file-code-o"></i>UX Conference 2015</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Lorem ipsum dolor sit amet, amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20">
-											<i class="fa fa-globe"></i>Improving Web Standards</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Lorem ipsum dolor sit amet, amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-dropbox"></i>Cloud Storage</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore.</p>
-									</li>
-								</ul>
-								<button class="btn btn-lg c-theme-btn c-btn-square c-btn-bold">EXPLORE</button>
+							<div class="col-md-4 col-xs-6 c-logo c-logo-3">
+								<a href="#"><img class="c-img-pos" src="../../assets/base/img/content/client-logos/client3.jpg" alt=""/></a>
 							</div>
-
-							<div class="col-md-7">
-								<ul class="c-photos">
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/08.jpg"  alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/013.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/23.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/61.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/25.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/39.jpg" alt=""/>
-									</li>
-								</ul>
+							<div class="col-md-4 col-xs-6 c-logo c-logo-4">
+								<a href="#"><img class="c-img-pos" src="../../assets/base/img/content/client-logos/client4.jpg" alt=""/></a>
 							</div>
-						</div>
-
-						<div class="tab-pane fade" id="c-tab3-3">
-							<div class="col-md-5 col-sm-12">
-								<ul class="c-items">
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-gamepad"></i>Gaming Stream Trends</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20">
-											<i class="fa fa-crosshairs"></i>How-to optimize your code
-										</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Lorem ipsum dolor sit amet, amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-camera"></i>Photography Tips</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Lorem ipsum dolor sit amet, amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-								</ul>
-								<button class="btn btn-lg c-theme-btn c-btn-square c-btn-bold">EXPLORE</button>
+							<div class="col-md-4 col-xs-6 c-logo c-logo-5">
+								<a href="#"><img class="c-img-pos" src="../../assets/base/img/content/client-logos/client5.jpg" alt=""/></a>
 							</div>
-
-							<div class="col-md-7">
-								<ul class="c-photos">
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/04.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/016.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/27.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/59.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/28.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/45.jpg" alt=""/>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="tab-pane fade" id="c-tab3-4">
-							<div class="col-md-5 col-sm-12">
-								<ul class="c-items">
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-comment-o"></i>Quick Response</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20"><i class="fa fa-file-code-o"></i>Superb Clean Coding</h4>
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Lorem ipsum dolor sit amet, amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-									<li>
-										<h4 class="c-font-20">
-											<i class="fa fa-dollar"></i>Value for Money
-										</h4>
-
-										<p>Lorem ipsum dolor sit amet, amet et cosectetuer sed et nonummy nib dias amet ut ed laoreet dolore. Lorem ipsum dolor sit amet, amet et cosectetuer sed et nib dias amet ut ed laoreet dolore.</p>
-									</li>
-								</ul>
-								<button class="btn btn-lg c-theme-btn c-btn-square c-btn-bold">EXPLORE</button>
-							</div>
-
-							<div class="col-md-7">
-								<ul class="c-photos">
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/02.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/012.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/19.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/37.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/29.jpg" alt=""/>
-									</li>
-									<li class="col-md-4 col-sm-4">
-										<img class="img-responsive" src="/assets/base/img/content/stock/39.jpg" alt=""/>
-									</li>
-								</ul>
+							<div class="col-md-4 col-xs-6 c-logo c-logo-6">
+								<a href="#"><img class="c-img-pos" src="../../assets/base/img/content/client-logos/client6.jpg" alt=""/></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div><!-- END: CONTENT/TABS/TAB-2 -->
-
-<!-- BEGIN: CONTENT/PORTFOLIO/LATEST-WORKS-1 -->
-<div class="c-content-box c-size-md c-bg-grey-1">
-	<div class="container">
-			<div class="c-content-title-1">
-				<h3 class="c-center c-font-uppercase c-font-bold">Latest Portfolio</h3>
-				<div class="c-line-center c-theme-bg"></div>
-				<p class="c-center c-font-uppercase">Showcasing your latest designs, sketches, photographs or videos.</p>
-			</div>
-
-			<div class="cbp-panel">
-				<!-- SEE: components.js:ContentCubeLatestPortfolio -->
-		        <div class="c-content-latest-works cbp cbp-l-grid-masonry-projects wow animate fadeInLeft">
-		            <div class="cbp-item graphic">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/08-long.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="/assets/base/img/content/stock/08.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Dashboard<br>by Paul Flavius Nechita">zoom</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="cbp-item web-design logos wow animate fadeInLeft">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/07.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project2.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="/assets/base/img/content/stock/07.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="World Clock Widget<br>by Paul Flavius Nechita">zoom</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="cbp-item graphic logos wow animate fadeInLeft" data-wow-delay="0.2s">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/09.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project3.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="http://vimeo.com/14912890" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="To-Do Dashboard<br>by Tiberiu Neamu">view video</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="cbp-item identity web-design wow animate fadeInLeft" data-wow-delay="0.4s">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/014.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project4.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="/assets/base/img/content/stock/014.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="WhereTO App<br>by Tiberiu Neamu">zoom</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="cbp-item web-design graphic wow animate fadeInLeft">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/34.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project5.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="/assets/base/img/content/stock/34.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Events and  More<br>by Tiberiu Neamu">zoom</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="cbp-item identity web-design wow animate fadeInLeft" data-wow-delay="0.2s">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/53.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project6.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="/assets/base/img/content/stock/53.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Ski * Buddy<br>by Tiberiu Neamu">zoom</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="cbp-item graphic logos wow animate fadeInLeft" data-wow-delay="0.4s">
-		                <div class="cbp-caption">
-		                    <div class="cbp-caption-defaultWrap">
-		                        <img src="/assets/base/img/content/stock/39.jpg" alt="">
-		                    </div>
-		                    <div class="cbp-caption-activeWrap">
-		                    	<div class="c-masonry-border"></div>
-		                        <div class="cbp-l-caption-alignCenter">
-		                            <div class="cbp-l-caption-body">
-		                                <a href="ajax/projects/project7.html" class="cbp-singlePage cbp-l-caption-buttonLeft btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase">explore</a>
-		                                <a href="/assets/base/img/content/stock/39.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn c-btn-square c-btn-border-1x c-btn-white c-btn-bold c-btn-uppercase" data-title="Seemple* Music for iPad<br>by Tiberiu Neamu">zoom</a>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
 	</div> 
 </div>
- <!-- END: CONTENT/PORTFOLIO/LATEST-WORKS-1 -->
 
-<!-- BEGIN: CONTENT/PRICING/PRICING-5 -->
-<div class="c-content-box c-size-md">
-	<div class="container">
-		<div class="row c-margin-t-10 c-margin-b-10">
-			<div class="col-md-12">
-				<div class="c-content-title-1 c-title-pricing-1">
-					<h3 class="c-font-uppercase c-font-bold">Purchase a Package</h3>
-					<div class="c-row c-try">
-						<button class="btn btn-md c-btn-square c-btn-red c-btn-uppercase c-btn-bold">TRY IT FOR FREE</button>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div class="row">
-			<div class="c-content-pricing-1 c-opt-1">
-
-				<div class="col-md-3 c-sm-hidden">
-					<div class="c-content c-column-odd c-padding-adjustment">
-						<div class="c-row c-type c-font-20 c-align-left">Product Features</div>
-						<div class="c-row c-title c-font-17">End Products</div>
-						<div class="c-row c-title c-font-17">Standard Features</div>
-						<div class="c-row c-title c-font-17">Free Issues</div>
-						<div class="c-row c-title c-font-17">Paid Issues</div>
-						<div class="c-row c-empty">&nbsp;</div>
-						<div class="c-row c-empty">&nbsp;</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-4">
-					<div class="c-content c-column-even c-padding-adjustment"> 
-						<div class="c-row c-type c-font-20">Starter</div>
-						<div class="c-row c-font-17">
-							10 <span class="c-sub-title">End Products</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Standard Features</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-times c-font-20"></i> <span class="c-sub-title">Free Issues</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-times c-font-20"></i> <span class="c-sub-title">Paid Issues</span>
-						</div>
-						<div class="c-row c-price">
-							<span class="c-dollar c-font-20">$</span> <span class="c-font-30 c-font-bold">49</span>
-						</div>
-						<div class="c-row c-purchase">
-							<button class="btn btn-md c-btn-square c-btn-green c-btn-uppercase c-btn-bold">PURCHASE</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-4">
-					<div class="c-content c-column-odd c-padding-adjustment">
-						<div class="c-row c-type c-font-20">Community</div>
-						<div class="c-row c-font-17">100 <span class="c-sub-title">End Products</span></div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Standard Features</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Free Issues</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Paid Issues</span>
-						</div>
-						<div class="c-row c-price">
-							<span class="c-dollar c-font-20">$</span> <span class="c-font-30 c-font-bold">99</span>
-						</div>
-						<div class="c-row c-purchase">
-							<button class="btn btn-md c-btn-square c-btn-green c-btn-uppercase c-btn-bold">PURCHASE</button>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-4">
-					<div class="c-content c-column-even">
-						<div class="c-row c-type c-font-20">Professional</div>
-						<div class="c-row c-font-17">Unlimited <span class="c-sub-title">End Products</span></div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Standard Features</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Free Issues</span>
-						</div>
-						<div class="c-row">
-							<i class="fa fa-check c-font-20"></i> <span class="c-sub-title">Paid Issues</span>
-						</div>
-						<div class="c-row c-price">
-							<span class="c-dollar c-font-20">$</span> <span class="c-font-30 c-font-bold">149</span>
-						</div>
-						<div class="c-row c-purchase">
-							<button class="btn btn-md c-btn-square c-btn-green c-btn-uppercase c-btn-bold">PURCHASE</button>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-</div><!-- END: CONTENT/PRICING/PRICING-5 -->
-		<!-- END: PAGE CONTENT -->
 
 		
 	</div>
@@ -2190,133 +1706,29 @@ Follow: http://www.twitter.com/themehats
 
 	<!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
 <a name="footer"></a>
-<footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
-
-	<div class="container">
-
-		<div class="c-prefooter c-bg-white">
-
-			<div class="c-head">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="c-left">
-							<div class="socicon">
-								<a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-facebook tooltips" data-original-title="Facebook" data-container="body"></a>
-								<a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-twitter tooltips" data-original-title="Twitter" data-container="body"></a>
-								<a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-youtube tooltips" data-original-title="Youtube" data-container="body"></a>
-								<a href="#" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-tumblr tooltips" data-original-title="Tumblr" data-container="body"></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="c-right">
-							<h3 class="c-title c-font-uppercase c-font-bold">Download Mobile App</h3>
-							<div class="c-icons">
-								<a href="#" class="c-font-30 c-font-green-1 socicon-btn c-bg-grey-1-hover socicon-android tooltips" data-original-title="Android" data-container="body"></a>
-								<a href="#" class="c-font-30 c-font-grey-3 socicon-btn c-bg-grey-1-hover socicon-apple tooltips" data-original-title="Apple" data-container="body"></a>
-								<a href="#" class="c-font-30 c-font-blue-3 socicon-btn c-bg-grey-1-hover socicon-windows tooltips" data-original-title="Windows" data-container="body"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="c-line"></div>
-
-			<div class="c-body">
-				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<ul class="c-links c-theme-ul">
-							<li><a href="#">About Jango</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms &	Conditions</a></li>
-							<li><a href="#">Delivery</a></li>
-							<li><a href="#">Promotions</a></li>
-							<li><a href="#">News</a></li>
-						</ul>
-						<ul class="c-links c-theme-ul">
-							<li><a href="#">Blogs</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Clients</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Features</a></li>
-							<li><a href="#">Stats</a></li>
-						</ul>
-					</div>
-					<div class="col-md-5 col-sm-6 col-xs-12">
-						<div class="c-content-title-1 c-title-md">
-							<h3 class="c-title c-font-uppercase c-font-bold">Latest Tweets</h3>
-							<div class="c-line-left hide"></div>
-						</div>
-						<div class="c-twitter">
-							<a class="twitter-timeline"
-								href="https://twitter.com/themehats"
-								data-tweet-limit="2" 
-								data-chrome="noheader nofooter noscrollbar noborders transparent">
-								Loading tweets by @themehats...
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-12 col-xs-12">
-						<div class="c-content-title-1 c-title-md">
-							<h3 class="c-title c-font-uppercase c-font-bold">Contact Us</h3>
-							<div class="c-line-left hide"></div>
-						</div>
-						<p class="c-address c-font-16">
-							25, Lorem Lis Street, Orange <br/> California, US <br/> Phone: 800 123 3456
-							<br/> Fax: 800 123 3456 <br/> Email: <a href="mailto:info@jango.com"><span class="c-theme-color">info@jango.com</span></a>
-							<br/> Skype: <a href="#"><span class="c-theme-color">jango</span></a>
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="c-line"></div>
-
-			<div class="c-foot">
-				<div class="row">
-					<div class="col-md-7">
-						<div class="c-content-title-1 c-title-md">
-							<h3 class="c-font-uppercase c-font-bold">About <span class="c-theme-font">JANGO</span></h3>
-							<div class="c-line-left hide"></div>
-						</div>
-						<p class="c-text c-font-16 c-font-regular">Tolerare unus ducunt ad brevis buxum. Est alter buxum, cesaris. Eheu, lura! Racanas crescere in emeritis oenipons! Ubi est rusticus repressor? Lixa grandis clabulare est. Eposs tolerare.</p>
-					</div>
-					<div class="col-md-5">
-						<div class="c-content-title-1 c-title-md">
-							<h3 class="c-font-uppercase c-font-bold">Subscribe to Newsletter</h3>
-							<div class="c-line-left hide"></div>
-						</div>
-						<div class="c-line-left hide"></div>
-						<form action="#">
-							<div class="input-group input-group-lg c-square">
-								<input type="text" class="form-control c-square c-font-grey-3 c-border-grey c-theme" placeholder="Your Email Here"/>
-					        	<span class="input-group-btn">
-					            	<button class="btn c-theme-btn c-theme-border c-btn-square c-btn-uppercase c-font-16" type="button">Subscribe</button>
-					        	</span>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-
-	<div class="c-postfooter c-bg-dark-2">
+<footer class="c-layout-footer c-layout-footer-1">
+	
+	<div class="c-postfooter">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-12 c-col">
-					<p class="c-copyright c-font-grey">2015 &copy; JANGO
-						<span class="c-font-grey-3">All Rights Reserved.</span>
+				<div class="col-md-6 col-sm-6">
+					<p class="c-copyright c-font-oswald c-font-14">
+					ATITUDE CURSOS &copy;.
 					</p>
 				</div>
-							</div>
+				<div class="col-md-6 col-sm-6">
+					<ul class="c-socials">
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="icon-social-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-social-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
+</footer><!-- END: LAYOUT/FOOTERS/FOOTER-1 -->
 
-</footer>
+
 <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
 
 	<!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->

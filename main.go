@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"ginSessionTest/models"
+	"atitude/models"
 	"log"
 	"net/http"
 	"strings"
@@ -66,6 +66,12 @@ func main() {
 
 	r.GET("/home", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "home.tpl", gin.H{
+			"oi": "AEEEEEE",
+		})
+	})
+
+	r.GET("/curso-gestao-de-seguranca-publica", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "curso-gestao-de-seguranca-publica.tpl", gin.H{
 			"oi": "AEEEEEE",
 		})
 	})
