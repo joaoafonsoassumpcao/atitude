@@ -23,3 +23,6 @@ func (this *SiteMainController) Home() {
 	this.loadViewSite("views/home", "init_home", "dummy")
 }
 
+func (this *SiteMainController) CursoGestao() {
+	this.loadViewSite("views/curso-gestao-de-seguranca-publica", "dummy", "dummy")
+}
